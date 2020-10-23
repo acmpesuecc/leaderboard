@@ -26,9 +26,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Leaderboard
+        <h1>Leaderboard</h1>
         </p>
         <table className="table table-dark">
         <thead>
