@@ -20,6 +20,7 @@ function App() {
       setDataret(0);
     }
   });
+  const url = `https://github.com/`;
 
 
   return (
@@ -29,7 +30,7 @@ function App() {
         <p>
           Leaderboard
         </p>
-        <table>
+        <table className="table table-dark">
         <thead>
         <tr>
           <th>Rank</th><th>Github Username</th><th>Total Score</th>
@@ -38,7 +39,9 @@ function App() {
         <tbody>
         {Object.keys(result).map((keyName, i) => (
             <tr>
-                <td>{i+1}</td><td>{keyName}</td><td>{result[keyName]}</td>
+                <td>{i+1}</td>
+                <td><a href = {url+`${keyName}`} target="_blank">{keyName}</a></td>
+                <td>{result[keyName]}</td>
             </tr>
         ))}
         </tbody>
