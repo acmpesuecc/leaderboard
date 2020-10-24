@@ -44,3 +44,8 @@ table{
   table-layout: fixed;
   width: 30%;
 }
+button{
+  width: 15%;
+  border-radius: 8px;
+  margin-left: 12px;
+}
