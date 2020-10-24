@@ -3,6 +3,10 @@ import axios from 'axios';
 import logo from './logo.jpeg';
 import './App.css';
 
+function refreshPage() {
+  window.location.reload(false);
+}
+
 function App() {
 
   const [result, setResult] = useState({"No one yet!":"???"});
@@ -46,6 +50,7 @@ function App() {
         <p>
         <h1>Leaderboard</h1>
         </p>
+        <button onClick={refreshPage}>Click to reload!</button>
         <table className="table table-dark">
         <thead>
         <tr>
