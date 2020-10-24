@@ -19,8 +19,23 @@ function App() {
       console.log(result);
       setDataret(0);
     }
-  });
+  }, []);
+
   const url = `https://github.com/`;
+
+  // serialize result into object array, so that we can sort by key
+  var result_array = [];
+
+  // push each new user record as an object to the array
+  Object.keys(result).map((keyName, i) => {
+    result_array = [...result_array, {username: keyName, score: result[keyName]}];
+    return null
+  })
+
+  // sort the result in descending order of score
+  const sortedResults = result_array.sort((first, second) => {
+    return second.score - first.score;
+  })
 
 
   return (
@@ -38,13 +53,13 @@ function App() {
         </tr>
         </thead>
         <tbody>
-        {Object.keys(result).map((keyName, i) => (
-            <tr>
-                <td>{i+1}</td>
-                <td><a href = {url+`${keyName}`} target="_blank">{keyName}</a></td>
-                <td>{result[keyName]}</td>
+          {sortedResults && sortedResults.map((object, counter) => (
+            <tr key={object.username}>
+              <td> {counter + 1} </td>
+              <td><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
+              <td>{object.score}</td>
             </tr>
-        ))}
+          ))}
         </tbody>
         </table>
       </header>
