@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ![WebApp]()
 
-## Available Scripts
+# WebApp
 
-In the project directory, you can run:
+<table>
+<tr>
+<td>
+  A webapp using React js to display Leaderboard score in event Hacknight 2.0 
+</td>
+</tr>
+</table>
 
-### `yarn start`
+## Demo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Site
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Landing Page
 
-### `yarn test`
+![]()
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Mobile support
 
-### `yarn build`
+The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![]()
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Want to contribute? Great!
 
-### `yarn eject`
+To fix a bug or enhance an existing module, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Bug / Feature Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/acmpesuecc/leaderboard/issues/new) by including your search query and the expected result.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/acmpesuecc/leaderboard/issues/new). Please include sample queries and their corresponding results.
 
-## Learn More
+## Built with
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React js](https://reactjs.org/) - React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+- [Create React app](https://reactjs.org/docs/create-a-new-react-app.html) - Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
+- [Axios](https://github.com/axios/axios) - Axios is a promise-based library that makes it easy to make web requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## To-do
 
-### Code Splitting
+## Team
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/srujandeshpande"><img src="https://avatars0.githubusercontent.com/u/47925600?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Srujan Deshpande</b></sub></td>
+    <td align="center"><a href="https://github.com/vatsalsinha"><img src="https://avatars0.githubusercontent.com/u/57571075?s=400&u=d001681e3572f74340873d800b1911d275d81230&v=4" width="100px;" alt=""/><br /><sub><b>Vatsal Sinha </b></sub></td>
+    <td align="center"><a href="https://github.com/sanskritip"><img src="https://avatars1.githubusercontent.com/u/48806637?s=400&u=825d98f6ad7019b86e6ff3915361a6e37d549821&v=4" width="100px;" alt=""/><br /><sub><b>Sanskriti Pattanayak</b></sub></td>
+    <td align="center"><a href="https://github.com/anirudhRowjee"><img src="https://avatars3.githubusercontent.com/u/42117791?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Anirudh Rowjee </b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/NicolaDonoastro"><img src="https://avatars3.githubusercontent.com/u/58669807?s=400&u=b1026bee92213d667c3a6636a1d7757bb0765cf5&v=4" width="100px;" alt=""/><br /><sub><b>Nicola Donoastro </b></sub></td>
+  </tr>
+</table>
