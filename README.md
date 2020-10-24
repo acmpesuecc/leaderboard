@@ -1,4 +1,4 @@
-# ![WebApp]()
+# ![WebApp](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_hacknight_leaderboard.png)
 
 # WebApp
 
@@ -16,13 +16,13 @@
 
 ### Landing Page
 
-![]()
+![](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_hacknight_leaderboard.png)
 
 ## Mobile support
 
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
-![]()
+![](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_mobile_HackNight%20Leaderboard%20.png)
 
 ### Development
 
