@@ -29,8 +29,10 @@ jobs:
       # 
       - name: commit it to gh-pages branch
         run: |
+          git config --global user.email "avinash2000vk@gmail.com"
+          git config --global user.name "avinash"
           git add .
-          git commit -m "deploy changes"
+          git commit -m "deploying from master"
           git push origin gh-pages
           
           
