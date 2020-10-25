@@ -54,3 +54,34 @@ button{
   margin-bottom:12px ;
   flex-wrap: wrap;
 }
+
+.refresh-button {
+  align: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.fuzzy-results {
+  background-color: darkgreen;
+}
+
+.searchbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.search-text {
+}
+
+.clearSearch{
+}
