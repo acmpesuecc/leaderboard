@@ -8,44 +8,9 @@ function refreshPage() {
 }
 
 function App() {
-
-  const [result, setResult] = useState({"No one yet!":"???"});
-  const [dataret, setDataret] = useState(1);
-
-  useEffect(async () => {
-    if(dataret){
-      const fresult = await axios({
-        method: 'get',
-        url: 'https://acm-bounty.herokuapp.com/scores'
-      });
-
-      setResult(fresult.data);
-      console.log(result);
-      setDataret(0);
-    }
-  }, []);
-
-  const url = `https://github.com/`;
-
-  // serialize result into object array, so that we can sort by key
-  var result_array = [];
-
-  // push each new user record as an object to the array
-  Object.keys(result).map((keyName, i) => {
-    result_array = [...result_array, {username: keyName, score: result[keyName]}];
-    return null
-  })
-
-  // sort the result in descending order of score
-  const sortedResults = result_array.sort((first, second) => {
-    return second.score - first.score;
-  })
-
-
   return (
-    <div className="App">
+    <div className="App" style={{overflow:"hidden"}}>
       <header className="App-header">
-
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         <h1>Leaderboard</h1>
@@ -60,13 +25,16 @@ function App() {
         </tr>
         </thead>
         <tbody>
-          {sortedResults && sortedResults.map((object, counter) => (
-            <tr key={object.username}>
-              <td> {counter + 1} </td>
-              <td><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
-              <td>{object.score}</td>
-            </tr>
-          ))}
+        <div
+        style = {{
+          backgroundImage:"url(https://lh4.googleusercontent.com/proxy/BIV0Lpkuh7LU3B6neW_6VG4IS-31qMw9BEBpxi95b3SHOsNVwYLtU6kD_Y0Pntof_BRiJ06acO2jKFTSbh5ZeHWPsYskDFigSHCmR2QaP9jMPxq-MMC-1zw0WVBWaV5zoVcP=w220-h165)",
+
+          height:"50vh",
+          width:"100vw",
+          resizeMode:'cover'
+        }}
+        >
+        </div>
         </tbody>
         </table>
       </header>
