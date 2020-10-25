@@ -50,7 +50,9 @@ function App() {
         <p>
         <h1>Leaderboard</h1>
         </p>
+        <div>
         <button onClick={refreshPage}>Click to reload!</button>
+        </div>
         <table className="table table-dark">
         <thead>
         <tr>
