@@ -54,3 +54,51 @@ button{
   margin-bottom:12px ;
   flex-wrap: wrap;
 }
+
+.refresh-button {
+  align: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.fuzzy-results {
+  background-color: darkgray;
+}
+
+.searchbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.search-text {
+}
+
+.clearSearch{
+}
+.table_profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_profile img {
+  width: 25px;
+  margin-right: 15px;
+}
+
+@media (max-width: 320px) {
+  .table_profile img {
+    width: 15px;
+    margin-right: 10px;
+  }
+}
