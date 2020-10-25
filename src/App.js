@@ -109,7 +109,7 @@ Object.keys(timeLeft).forEach((interval) => {
           {sortedResults && sortedResults.map((object, counter) => (
             <tr key={object.username}>
               <td> {counter + 1} </td>
-              <td><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
+              <td class="table_profile"><img src={`${url}${object.username}.png`} alt={object.username}/><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
               <td>{object.score}</td>
             </tr>
           ))}
