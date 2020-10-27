@@ -139,6 +139,15 @@
         "question",
         "test"
       ]
+    },
+    {
+      "login": "vatsalsinha",
+      "name": "Vatsal Sinha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57571075?v=4",
+      "profile": "https://github.com/vatsalsinha",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
