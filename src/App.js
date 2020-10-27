@@ -6,9 +6,6 @@ import fuzzysearch from 'fuzzysearch';
 
 import './App.css';
 
-function refreshPage() {
-  window.location.reload(false);
-}
 
 const calculateTimeLeft = () => {
   let year = new Date().getFullYear();
@@ -55,23 +52,22 @@ Object.keys(timeLeft).forEach((interval) => {
 
 
   const [result, setResult] = useState({"No one yet!":"???"});
-  const [dataret, setDataret] = useState(1);
 
   const [searchQuery, setSeachQuery] = useState("");
 
   const [fuzzy, setFuzzy] = useState();
 
-  useEffect(async () => {
-    if(dataret){
+  const fetchData = async () =>{
       const fresult = await axios({
         method: 'get',
         url: 'https://acm-bounty.herokuapp.com/scores'
       });
-
       setResult(fresult.data);
       console.log(result);
-      setDataret(0);
-    }
+  }
+
+  useEffect( () => {
+    fetchData();
   }, []);
 
   const url = `https://github.com/`;
@@ -116,11 +112,10 @@ Object.keys(timeLeft).forEach((interval) => {
         <h1>HacktoberFest {year} Countdown</h1>
     {timerComponents.length ? timerComponents : <span>Time's up!</span>}
  </div>  
-        <p>
         <h1>Leaderboard</h1>
         </p>
         <div className='controls'>
-          <button className="refresh-button" onClick={refreshPage}>Click to reload!</button>
+          <button onClick={() => fetchData()}>Click to reload!</button>
           <div className='searchbar'>
             <input type="text" className='search-text' onChange={handleSearchBarChange} placeholder="search by username" />
             <button className='clearSearch' onClick={() => setFuzzy(null)}> X </button>
@@ -160,7 +155,7 @@ Object.keys(timeLeft).forEach((interval) => {
           {sortedResults && sortedResults.map((object, counter) => (
             <tr key={object.username}>
               <td> {counter + 1} </td>
-              <td class="table_profile"><img src={`${url}${object.username}.png`} alt={object.username}/><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
+              <td class="table_profile"><img src={`${url}${object.username}.png`} alt={object.username}/><a href = {`${url}${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
               <td>{object.score}</td>
             </tr>
           ))}
