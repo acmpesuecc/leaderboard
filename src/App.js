@@ -111,7 +111,7 @@ Object.keys(timeLeft).forEach((interval) => {
         <div>
         <h1>HacktoberFest {year} Countdown</h1>
     {timerComponents.length ? timerComponents : <span>Time's up!</span>}
- </div>  
+ </div>  <p>
         <h1>Leaderboard</h1>
         </p>
         <div className='controls'>
