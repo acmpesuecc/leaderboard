@@ -94,6 +94,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SreejithNS",
+      "name": "Sreejith N Subramanian",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28445535?v=4",
+      "profile": "http://fb.com/sreejith.n.subramanian",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
