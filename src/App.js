@@ -122,8 +122,8 @@ Object.keys(timeLeft).forEach((interval) => {
           </div>
         </div>
 
-        {fuzzy && (
-            <table className="table table-dark fuzzy-results">
+        {fuzzy && searchQuery && (
+            <table className={`${searchQuery ? 'fuzzy-results':null} table table-dark`}>
               <thead>
                 <tr>
                   <th>Rank</th><th>Github Username</th><th>Total Score</th>
