@@ -122,8 +122,8 @@ Object.keys(timeLeft).forEach((interval) => {
           </div>
         </div>
 
-        {fuzzy && (
-            <table className="table table-dark fuzzy-results">
+        {fuzzy && searchQuery && (
+            <table className={`${searchQuery ? 'fuzzy-results':null} table table-dark`}>
               <thead>
                 <tr>
                   <th>Rank</th><th>Github Username</th><th>Total Score</th>
@@ -134,7 +134,7 @@ Object.keys(timeLeft).forEach((interval) => {
                 {fuzzy.map((object, counter) => (
                   <tr key={object.username}>
                     <td> {counter + 1} </td>
-                    <td><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
+                    <td className="table_profile"><img src={`${url}${object.username}.png`} alt={object.username}/><a href = {url+`${object.username}`} target="_blank" rel='noreferrer'>{object.username}</a></td>
                     <td>{object.score}</td>
                   </tr>
                 ))}
