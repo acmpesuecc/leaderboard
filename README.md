@@ -1,6 +1,6 @@
 # ![WebApp](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_hacknight_leaderboard.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # WebApp
@@ -79,6 +79,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/vatsalsinha"><img src="https://avatars0.githubusercontent.com/u/57571075?v=4" width="100px;" alt=""/><br /><sub><b>Vatsal Sinha</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=vatsalsinha" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sanskritip"><img src="https://avatars1.githubusercontent.com/u/48806637?v=4" width="100px;" alt=""/><br /><sub><b>Sanskriti Pattanayak</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=sanskritip" title="Code">💻</a> <a href="#design-sanskritip" title="Design">🎨</a></td>
   </tr>
 </table>
 
