@@ -13,8 +13,8 @@
       "contributions": [
         "code"
       ]
-      },
-      {
+    },
+    {
       "login": "NicolaDonoastro",
       "name": "NicolaDonoastro",
       "avatar_url": "https://avatars0.githubusercontent.com/u/58669807?v=4",
@@ -22,14 +22,23 @@
       "contributions": [
         "doc"
       ]
-      },
-      {
+    },
+    {
       "login": "anirudhRowjee",
       "name": "Anirudh Rowjee",
       "avatar_url": "https://avatars0.githubusercontent.com/u/42117791?v=4",
       "profile": "http://anirudhrowjee.xyz",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "avinash-vk",
+      "name": "Avinash V K",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51489449?v=4",
+      "profile": "https://github.com/avinash-vk",
+      "contributions": [
+        "infra"
       ]
     }
   ],
