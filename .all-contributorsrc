@@ -67,6 +67,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "superneutrino8",
+      "name": "Vivek Bariya",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19869900?v=4",
+      "profile": "https://www.linkedin.com/in/vivek-bariya/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
