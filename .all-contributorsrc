@@ -40,6 +40,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "abhishek-pes",
+      "name": "abhishek-pes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54106076?v=4",
+      "profile": "https://github.com/abhishek-pes",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
