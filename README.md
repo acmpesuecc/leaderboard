@@ -1,4 +1,7 @@
 # ![WebApp](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_hacknight_leaderboard.png)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # WebApp
 
@@ -59,12 +62,12 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/srujandeshpande"><img src="https://avatars0.githubusercontent.com/u/47925600?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Srujan Deshpande</b></sub></td>
-    <td align="center"><a href="https://github.com/vatsalsinha"><img src="https://avatars0.githubusercontent.com/u/57571075?s=400&u=d001681e3572f74340873d800b1911d275d81230&v=4" width="100px;" alt=""/><br /><sub><b>Vatsal Sinha </b></sub></td>
-    <td align="center"><a href="https://github.com/sanskritip"><img src="https://avatars1.githubusercontent.com/u/48806637?s=400&u=825d98f6ad7019b86e6ff3915361a6e37d549821&v=4" width="100px;" alt=""/><br /><sub><b>Sanskriti Pattanayak</b></sub></td>
-    <td align="center"><a href="https://github.com/anirudhRowjee"><img src="https://avatars3.githubusercontent.com/u/42117791?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Anirudh Rowjee </b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/NicolaDonoastro"><img src="https://avatars3.githubusercontent.com/u/58669807?s=400&u=b1026bee92213d667c3a6636a1d7757bb0765cf5&v=4" width="100px;" alt=""/><br /><sub><b>Nicola Donoastro </b></sub></td>
+    <td align="center"><a href="https://github.com/ShreyaPanale"><img src="https://avatars3.githubusercontent.com/u/44115662?v=4" width="100px;" alt=""/><br /><sub><b>ShreyaPanale</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=ShreyaPanale" title="Code">💻</a></td>
   </tr>
 </table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
