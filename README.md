@@ -1,6 +1,6 @@
 # ![WebApp](https://raw.githubusercontent.com/NicolaDonoastro/leaderboard/hotfix/readme-update/public/demo_hacknight_leaderboard.png)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # WebApp
@@ -75,6 +75,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
     <td align="center"><a href="https://github.com/RanjithGovindaraj"><img src="https://avatars1.githubusercontent.com/u/44660650?v=4" width="100px;" alt=""/><br /><sub><b>Ranjith Govindaraj</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=RanjithGovindaraj" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/frozenchicken"><img src="https://avatars3.githubusercontent.com/u/67844226?v=4" width="100px;" alt=""/><br /><sub><b>Hope Philip</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=frozenchicken" title="Documentation">📖</a></td>
     <td align="center"><a href="http://fb.com/sreejith.n.subramanian"><img src="https://avatars1.githubusercontent.com/u/28445535?v=4" width="100px;" alt=""/><br /><sub><b>Sreejith N Subramanian</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=SreejithNS" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chinmaym07"><img src="https://avatars1.githubusercontent.com/u/44670961?v=4" width="100px;" alt=""/><br /><sub><b>Chinmay Mehta</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=chinmaym07" title="Code">💻</a></td>
   </tr>
 </table>
 
