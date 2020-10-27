@@ -71,6 +71,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
     <td align="center"><a href="https://github.com/mtrunt"><img src="https://avatars0.githubusercontent.com/u/1170107?v=4" width="100px;" alt=""/><br /><sub><b>Mario</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=mtrunt" title="Documentation">📖</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/vivek-bariya/"><img src="https://avatars0.githubusercontent.com/u/19869900?v=4" width="100px;" alt=""/><br /><sub><b>Vivek Bariya</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=superneutrino8" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RanjithGovindaraj"><img src="https://avatars1.githubusercontent.com/u/44660650?v=4" width="100px;" alt=""/><br /><sub><b>Ranjith Govindaraj</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=RanjithGovindaraj" title="Code">💻</a></td>
   </tr>
 </table>
