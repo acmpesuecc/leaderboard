@@ -62,6 +62,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/ShreyaPanale"><img src="https://avatars3.githubusercontent.com/u/44115662?v=4" width="100px;" alt=""/><br /><sub><b>ShreyaPanale</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=ShreyaPanale" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/NicolaDonoastro"><img src="https://avatars0.githubusercontent.com/u/58669807?v=4" width="100px;" alt=""/><br /><sub><b>NicolaDonoastro</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=NicolaDonoastro" title="Documentation">📖</a></td>
     <td align="center"><a href="http://anirudhrowjee.xyz"><img src="https://avatars0.githubusercontent.com/u/42117791?v=4" width="100px;" alt=""/><br /><sub><b>Anirudh Rowjee</b></sub></a><br /><a href="https://github.com/acmpesuecc/leaderboard/commits?author=anirudhRowjee" title="Code">💻</a></td>
   </tr>
