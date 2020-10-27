@@ -121,6 +121,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "srujandeshpande",
+      "name": "Srujan Deshpande",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47925600?v=4",
+      "profile": "http://srujandeshpande.tech",
+      "contributions": [
+        "code",
+        "infra",
+        "bug",
+        "business",
+        "doc",
+        "eventOrganizing",
+        "ideas",
+        "maintenance",
+        "question",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
