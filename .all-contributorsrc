@@ -5,6 +5,34 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+  {
+      "login": "srujandeshpande",
+      "name": "Srujan Deshpande",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47925600?v=4",
+      "profile": "http://srujandeshpande.tech",
+      "contributions": [
+        "code",
+        "infra",
+        "bug",
+        "business",
+        "doc",
+        "eventOrganizing",
+        "ideas",
+        "maintenance",
+        "question",
+        "test"
+      ]
+    },
+    {
+      "login": "sanskritip",
+      "name": "Sanskriti Pattanayak",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/48806637?v=4",
+      "profile": "https://github.com/sanskritip",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
     {
       "login": "ShreyaPanale",
       "name": "ShreyaPanale",
@@ -123,40 +151,12 @@
       ]
     },
     {
-      "login": "srujandeshpande",
-      "name": "Srujan Deshpande",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/47925600?v=4",
-      "profile": "http://srujandeshpande.tech",
-      "contributions": [
-        "code",
-        "infra",
-        "bug",
-        "business",
-        "doc",
-        "eventOrganizing",
-        "ideas",
-        "maintenance",
-        "question",
-        "test"
-      ]
-    },
-    {
       "login": "vatsalsinha",
       "name": "Vatsal Sinha",
       "avatar_url": "https://avatars0.githubusercontent.com/u/57571075?v=4",
       "profile": "https://github.com/vatsalsinha",
       "contributions": [
         "code"
-      ]
-    },
-    {
-      "login": "sanskritip",
-      "name": "Sanskriti Pattanayak",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/48806637?v=4",
-      "profile": "https://github.com/sanskritip",
-      "contributions": [
-        "code",
-        "design"
       ]
     }
   ],
